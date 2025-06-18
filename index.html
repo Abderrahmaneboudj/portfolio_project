@@ -4,28 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my portfolio project</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#about">about</a></li>
+    <header>
+    <nav class="navbar">
+      <ul class="ulnavbar">
+       <li><a href="#about">about</a></li>
         <li><a href="#work">work</a></li>
         <li><a href="#resume">resume</a></li>
         <li><a href="#contact">contact</a></li>
       </ul>
     </nav>
-    <section>
+    </header>
+    <section id="welcome">
       <h1>welcome to my portfolio website</h1>
       <p>this is a portfolio website i made to practice html</p>
     </section>
      <section id="about">
       <h2>about me </h2>
       <p>im abderrahmane from algeria , im a cs student in university , and one of GMC student , im currently learning html</p>
-    </section id="work">
+    <div class="work">
        <h2>my work </h2>
       <ul>
-        <li>current project : portfolio website </li>
+        <li>project 1 : portfolio website </li>
+        <li>project 2 : agency landing page </li>
+        <li>project 3 : quiz platform </li>
       </ul>
+    </div>
+      </section>
     </section>
     <section id="resume">
         <h2> RESUME </h2>
@@ -44,7 +51,7 @@
             </tr>
         </table>
     </section>
-    <section>
+    <section id="video">
         <h3> look at this html video for better understanding of what is html :</h3>
      <iframe
 	width="420"
@@ -73,7 +80,7 @@
             <textarea name="message"></textarea>
             <br>
              <br>
-             <button type="submit">submit</button>
+             <button class="btn" type="submit">submit</button>
         </form>
         <br>
     </section>

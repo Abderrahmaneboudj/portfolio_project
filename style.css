@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+body {
+  background-color: #f9f9f9;
+  color: #1e90ff;
+  font-family: "Roboto";
+}
+.navbar {
+  background-color: #7fb0d8;
+  padding: 0.5rem 1rem;
+  height: 3rem;
+  border: solid 3px rgb(34, 139, 219);
+  border-radius: 5px;
+  .ulnavbar li {
+    font-weight: bold;
+    display: inline;
+    margin-left: 190px;
+  }
+}
+#welcome {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    color: black;
+    font-size: 23px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: 1rem 5rem;
+  border-radius: 10px;
+  background-color: #7ebee6;
+  h2 {
+    font-size: 35px;
+    line-height: 0.5rem;
+    color: #1960a7;
+  }
+  p {
+    color: black;
+  }
+  .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem 1rem 1rem;
+    border-radius: 10px;
+    background-color: #8fd1f8;
+    h2 {
+      color: #1960a7;
+    }
+    ul li {
+      display: block;
+      color: black;
+    }
+  }
+}
+#resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 5rem;
+  border-radius: 10px;
+  background-color: #7ebee6;
+  padding-bottom: 1rem;
+  h2 {
+    font-size: 35px;
+    line-height: 0.5rem;
+    color: #1960a7;
+  }
+  table {
+    border: solid 2px #1960a7;
+  }
+  table td {
+    color: black;
+  }
+}
+#video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    font-size: 35px;
+    line-height: 0.5rem;
+    color: #0c3156;
+  }
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7ebee6;
+  border-radius: 10px;
+  margin: 1rem 5rem;
+  form input {
+    background-color: #70a9cd;
+    color: black;
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+  }
+  form textarea {
+    background-color: #70a9cd;
+    color: black;
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+  }
+  .btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 0.5rem;
+    color: #1960a7;
+  }
+  form label {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
